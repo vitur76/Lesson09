@@ -1,6 +1,6 @@
 package Task3;
 
-// Clasa Square (pentru un pătrat, formă 2D)
+
 public class Square extends TwoDimensionalShape {
     private double side;
 

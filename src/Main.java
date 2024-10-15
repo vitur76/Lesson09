@@ -7,22 +7,19 @@ public class Main {
     public static void main(String[] args) {
         //************** Persons ************************
         System.out.println("*************** Task1 ****************************");
-        // Create a Student object
+
         Person person = new Person("Mister X", "strada X");
         System.out.println(person);
 
-        // Create a Student object
+
         Student student = new Student("Victor Boiuru", "strada Florariei", "Developer", 10, 2000.00);
         System.out.println(student);
 
-        // Create a Staff object
+
         Staff staff = new Staff("Dolce Gabana", "bul. Moscovei", "Retele", 1000.00);
         System.out.println(staff);
 
-        //*************** Task2 ****************************
         System.out.println("*************** Task2 ****************************");
-
-        // Instanțiem obiectul Parallelogram
         Parallelogram parallelogram = new Parallelogram();
 
         int perimeter1 = parallelogram.calculatePerimeter(3, 8);
@@ -37,9 +34,7 @@ public class Main {
         int area2 = parallelogram.calculateArea(11);
         System.out.println("Aria rombului cu latura 11: " + area2);
 
-   //*************** Task3 ****************************
         System.out.println("*************** Task3 ****************************");
-
         Circle circle = new Circle(33);
         Square square = new Square(14);
 

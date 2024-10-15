@@ -1,6 +1,6 @@
 package Task3;
 
-// Clasa Circle (pentru un cerc, formă 2D)
+
 public class Circle extends TwoDimensionalShape {
     private double radius;
 

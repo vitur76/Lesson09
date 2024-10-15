@@ -1,6 +1,6 @@
 package Task3;
 
-// Clasa Sphere (pentru o sferă, formă 3D)
+
 public class Sphere extends ThreeDimensionalShape {
     private double radius;
 
@@ -10,11 +10,11 @@ public class Sphere extends ThreeDimensionalShape {
 
     @Override
     public double area() {
-        return 4 * Math.PI * radius * radius;  // Suprafața sferei
+        return 4 * Math.PI * radius * radius;
     }
 
     @Override
     public double volume() {
-        return (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);  // Volumul sferei
+        return (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
     }
 }

@@ -1,6 +1,5 @@
 package Task3;
 
-// Clasa Cube (pentru un cub, formă 3D)
 public class Cube extends ThreeDimensionalShape {
     private double side;
 
@@ -10,11 +9,11 @@ public class Cube extends ThreeDimensionalShape {
 
     @Override
     public double area() {
-        return 6 * side * side;  // Suprafața cubului
+        return 6 * side * side;
     }
 
     @Override
     public double volume() {
-        return side * side * side;  // Volumul cubului
+        return side * side * side;
     }
 }
